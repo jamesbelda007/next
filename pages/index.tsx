@@ -1,15 +1,9 @@
+import React from 'react'
 import type { NextPage } from 'next'
-import { Text, Button, VStack } from '@chakra-ui/react'
+import Layout from '@components/layout'
 
 const Home: NextPage = () => {
-  return (
-    <VStack justifyContent="center">
-      <Text fontSize="2xl" fontWeight={600}>
-        Hello World!
-      </Text>
-      <Button>Click Me</Button>
-    </VStack>
-  )
+  return <Layout>Hello World!</Layout>
 }
 
 export default Home
