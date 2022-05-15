@@ -12,8 +12,8 @@ interface LayoutProps {
 
 const Layout = ({
   children,
-  title = 'Eventmaker',
-  description = 'Event Suppliers Marketplace',
+  title = 'App Name',
+  description = 'App Description',
   image,
 }: LayoutProps) => {
   return (
