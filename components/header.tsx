@@ -40,7 +40,7 @@ const Header = ({ hasSearch, hasAuth }: HeaderProps): ReactElement => {
 
   const handleLogout = useCallback(() => {
     signOut(auth)
-  }, [auth])
+  }, [])
 
   return (
     <Box

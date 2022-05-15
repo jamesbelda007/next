@@ -22,7 +22,7 @@ const Thumbnail = ({
 }: ThumbnailProps): ReactElement => {
   const handleClick = useCallback(() => {
     action(index)
-  }, [])
+  }, [index, action])
   return (
     <AspectRatio
       position="relative"
